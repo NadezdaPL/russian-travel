@@ -1,0 +1,19 @@
+.content__place {
+  margin-bottom: 80px;
+}
+  
+@media screen and (max-width: 984px) {
+  .content__place {
+    margin-bottom: 73px;
+  }
+}
+  
+@media screen and (max-width: 568px) {
+  .content__place {
+    margin-bottom: 50px;
+  }
+}
+  
+.content__place:nth-last-of-type(1) {
+  margin-bottom: 0;
+}

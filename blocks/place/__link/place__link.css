@@ -1,0 +1,21 @@
+.place__link {
+  max-width: 456px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration-line: underline;
+  color: #FFF;
+}
+
+@media screen and (max-width: 984px) {
+  .place__link {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place__link {
+    max-width: 288px;
+  }
+}

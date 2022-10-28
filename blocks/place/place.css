@@ -1,0 +1,17 @@
+.place {
+  display: grid;
+  grid-template-areas:
+  "place__title place__website"
+  "place__image place__text"
+}
+
+
+@media screen and (max-width: 568px) {
+  .place {
+    grid-template-areas:
+    "place__title"
+    "place__website"
+    "place__image"
+    "place__text"
+  }
+}

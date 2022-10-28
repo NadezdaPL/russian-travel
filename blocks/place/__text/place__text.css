@@ -1,0 +1,24 @@
+.place__text {
+  margin-bottom: auto;
+  margin-left: 40px;
+  grid-area: place__text;
+}
+
+@media screen and (max-width: 1124px) {
+  .place__text {
+    margin-left: 32px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .place__text {
+    margin-left: 28px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place__text {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
