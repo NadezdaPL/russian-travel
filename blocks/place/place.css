@@ -2,7 +2,7 @@
   display: grid;
   grid-template-areas:
   "place__title place__website"
-  "place__image place__text"
+  "place__image place__text";
 }
 
 
@@ -12,6 +12,6 @@
     "place__title"
     "place__website"
     "place__image"
-    "place__text"
+    "place__text";
   }
 }
