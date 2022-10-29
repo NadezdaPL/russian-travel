@@ -12,13 +12,11 @@
 @media screen and (max-width: 984px) {
   .place__image {
     max-width: 340px;
-    margin-bottom: 101px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .place__image {
     max-width: 320px;
-    margin-bottom: 32px;
   }
 }

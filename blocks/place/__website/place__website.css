@@ -2,28 +2,23 @@
   max-width: 456px;
   list-style-type: none;
   padding: 0;
-  margin: 106px 28px 48px 40px;
+  margin: 0;
   grid-area: place__website;
-  display: grid;
- 
-}
-
-@media screen and (max-width: 1124px) {
-  .place__website {
-    margin: 106px 0 48px 32px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
   
 @media screen and (max-width: 984px) {
   .place__website {
     max-width: 352px;
-    margin: 46px 0 48px 28px;
   }
 }
   
 @media screen and (max-width: 568px) {
   .place__website {
     max-width: 288px;
-    margin: 32px 16px 32px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

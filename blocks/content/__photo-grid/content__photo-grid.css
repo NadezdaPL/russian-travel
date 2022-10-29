@@ -1,10 +1,10 @@
 .content__photo-grid {
-  box-sizing: border-box;
-  width: 100%;
   margin: 0 48px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   gap: 16px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 @media screen and (max-width: 1124px) {
@@ -13,6 +13,7 @@
     gap: 14px;
   }
 }
+
 
 @media screen and (max-width: 984px) {
   .content__photo-grid {
